@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Home from '@/components/Home.vue';
 import ProfileDetails from '@/components/ProfileDetails.vue';
 import BirthdayPicker from '@/components/BirthdayPicker.vue';
+import InterestsSelection from '@/components/InterestsSelection.vue';
 
 Vue.use(Router);
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/birthday-picker',
     name: 'BirthdayPicker',
     component: BirthdayPicker,
+  },
+  {
+    path: '/interests-selection',
+    name: 'InterestsSelection',
+    component: InterestsSelection,
   },
 ];
 
